@@ -1,0 +1,17 @@
+p {
+   font-family:Times;
+   font-size: 16px;
+   color: #000000;
+   
+}
+
+
+
+.table-border{
+    border: 2px solid #000000;
+}
+
+#photo-resize {
+    max-width: 200px;
+    max-height: 200px;
+}
