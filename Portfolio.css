@@ -1,17 +1,67 @@
-p {
+body{
    font-family:Times;
    font-size: 16px;
    color: #000000;
-   
+   background-color:#F3EBE1;
 }
 
-
-
-.table-border{
-    border: 2px solid #000000;
-}
-
-#photo-resize {
+#rpk_image{
     max-width: 200px;
     max-height: 200px;
+    display: block;
+    margin: 20px 20px;	
+}
+
+#ncsu_image{
+    display: block;
+    margin: 20px 20px;
+}
+
+img:hover{
+	border: 3px solid black;
+}
+
+#aboutme, #coursework{
+	display: flex;
+	justify-content: center;
+}
+
+#intro{
+	margin: 75px 0;
+}
+
+.category{
+	width: 1200px;
+	background-color:#ffcccc;
+	margin: 20px auto;
+}
+
+h2, h1{
+	text-align: center;
+}
+
+.category, table, img{
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+table, ul{
+	margin: 20px;
+}
+
+#skills{
+	width: 300px;
+}
+
+td{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+#contact{
+	text-align: center;
+}
+.links{
+	padding-right: 10px;
+	
 }

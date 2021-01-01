@@ -2,56 +2,60 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-    <head>
-        <meta charset="UTF-8" />
-        <link href="Portfolio.css" rel="stylesheet" type="text/css" />
-	<link rel="icon" type="image/png" href="icon.PNG">
-        <title>Robert Kenney Portfolio</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <link href="Portfolio.css" rel="stylesheet" type="text/css" />
+  	<link rel="icon" type="image/png" href="icon.PNG">
+    <title>Robert Kenney Portfolio</title>
+  </head>
 	
-    <body style="background-color:#F3EBE1">
-       <h1>Robert Kenney's Portfolio</h1>
-       <hr/>
-       
-       <h2>Biography</h2>
-       <img src = "Robert_Kenney_Photo.PNG" alt = "Photo of Robert Kenney" id = "photo-resize">
-       
-       <p>My name is Robert Kenney and currently I am freshman at NC State University majoring in Computer Science,with an anticipated May 2024 graduation. Through coursework, internships, 
-	    and co-ops I am striving to learn more about the fields of <b>Software Engineering</b>, <b>Artificial Intelligence</b> and <b>Data Science,</b>.</p>
-       <p></p>
-       <hr/>
-       <h2>Computer Science Coursework</h2>
-       <table class = "table-border">
-            <tr><th>Semester</th><th>Course</th><th>Grade</th></tr>
-            <tr><td>Fall 2020</td><td><b>CSC 116: Intro to Computing (Java)</b></td><td><i>97.11%</i></td></tr>
-            <tr><td>Spring 2021</td><td><b>CSC 216: Software Development Fundamentals</b></td><td><i>(N/A)</i></td></tr>
-            <tr><td>Spring 2021</td><td><b>CSC 226: Discrete Mathematics for Computer Scientists</b></td><td><i>(N/A)</i></td></tr>
-       </table>
-       <hr/>
-       <h2>Personal Projects</h2>
-       <p>The following programs are special projects I have recently completed.</p>
-       <h4>Skills Developed</h4>
-	    <ul>
-		<li>Object Oriented Programming</li>
-		<li>Graphical User Interfaces</li>
-		<li>File Input and Output</li>
-		<li>Development of Simple Algorithms</li>
-	    </ul>
-       <h4>Files and Descriptions</h4>
-       <table class = "table-border">
-            <tr><th>Link</th><th>Description</th></tr>
-            <tr><td><a href="https://github.com/rpkenney/Yahtzee" target= "_blank">Yahtzee</a></td><tdA GUI game that recreates the popular board game. It allows multiple users to play and makes scorekeeping easy.</td></tr>
-            <tr><td><a href="https://github.com/rpkenney/Snake" target= "_blank">Snake</a></td><td>A recreation of the popular retro game.</td></tr>
-            <tr><td><a href="https://github.com/rpkenney/TimeLog" target= "_blank">Time Logger</a></td><td>Created and designed as a custom request to fulfill a specific need, this software provides a platform to log work 
-		    hours and client tasks for billing purposes. It also includes options for generating a variety of summary reports.</td></tr>
-            <tr><td><a href="https://github.com/rpkenney/rpkenney.github.io" target= "_blank">Portfolio</a></td><td>HTML and CSS code for my portfolio.</td></tr>
+  <body>
+    <h1>Robert Kenney's Portfolio</h1>
+    <hr>
+    <div class = "category" id = "bio">
+      <h2>About Me</h2>
+      <div id = "aboutme">
+        <a href = "https://www.linkedin.com/in/robert-kenney-8b0bba1a5/"><img src = "Robert_Kenney_Photo.PNG" alt = "Photo of Robert Kenney" id = "rpk_image"></a>
+        <p id = "intro">My name is Robert Kenney and currently I am freshman at NC State University majoring in Computer Science, with an anticipated May 2024 graduation. Through coursework, internships, 
+          and co-ops I am striving to learn more about the fields of <b>Software Engineering</b>, <b>Artificial Intelligence</b> and <b>Data Science</b>.</p>
+      </div>
+      <div id = "contact">
+        <p><a href="https://www.linkedin.com/in/robert-kenney-8b0bba1a5/" class = "links">LinkedIn</a><a href="https://drive.google.com/file/d/1z6wZh9n7-kd3kij7LgRI71VZdeqAyzSl/view?usp=sharing" class = "links">Resumé</a><a href = "mailto:rpkenney@ncsu.edu" class = "links">rpkenney@ncsu.edu</a></p>
+      </div> 
+
+    </div>
+    <div class = "category">
+      <h2>Computer Science Coursework</h2>
+      <div id = "coursework">
+        <a href = "https://www.csc.ncsu.edu/"><img src = "ncsu.png" alt = "NCSU Computer Science" id = "ncsu_image"></a>
+        <table id = "coursework_breakdown">
+          <tr><th>Semester</th><th>Course</th><th>Grade</th></tr>
+          <tr><td>Fall 2020</td><td><b>CSC 116: Intro to Computing (Java)</b></td><td><i>97.11%</i></td></tr>
+          <tr><td>Spring 2021</td><td><b>CSC 216: Software Development Fundamentals</b></td><td><i>(N/A)</i></td></tr>
+          <tr><td>Spring 2021</td><td><b>CSC 226: Discrete Mathematics for Computer Scientists</b></td><td><i>(N/A)</i></td></tr>
         </table>
-        <hr/>
-        <h2>Other Links</h2>
-        <a href="https://www.linkedin.com/in/robert-kenney-8b0bba1a5/" target= "_blank">LinkedIn</a>
-        <p></p>
-        <a href = "https://drive.google.com/file/d/1z6wZh9n7-kd3kij7LgRI71VZdeqAyzSl/view?usp=sharing" target = "_blank">Resumé</a>
-	<p><b>Email:</b> <a href = "mailto:rpkenney@ncsu.edu">rpkenney@ncsu.edu</a></p>
+      </div>
+    </div>
+    <div class = "category" id = "proj">
+      <h2>Personal Projects</h2>
+      <p>The following programs are special projects I have recently completed.</p>
+      <h4>Skills Developed</h4>
+      <ul id = "skills">
+        <li>Object Oriented Programming</li>
+        <li>Graphical User Interfaces</li>
+        <li>File Input and Output</li>
+        <li>Development of Simple Algorithms</li>
+      </ul>
+      <h4>Files and Descriptions</h4>
+      <table id = "files">
+        <tr><th>Link</th><th>Description</th></tr>
+        <tr><td><a href="https://github.com/rpkenney/Yahtzee" target= "_blank">Yahtzee</a></td><td>A GUI game that recreates the popular board game. It allows multiple users to play and makes scorekeeping easy.</td></tr>
+        <tr><td><a href="https://github.com/rpkenney/Snake" target= "_blank">Snake</a></td><td>A recreation of the popular retro game.</td></tr>
+        <tr><td><a href="https://github.com/rpkenney/TimeLog" target= "_blank">Time Logger</a></td><td>Created and designed as a custom request to fulfill a specific need, this software provides a platform to log work 
+        hours and client tasks for billing purposes. It also includes options for generating a variety of summary reports.</td></tr>
+        <tr><td><a href="https://github.com/rpkenney/rpkenney.github.io" target= "_blank">Portfolio</a></td><td>HTML and CSS code for my portfolio.</td></tr>
+        </table>
+    </div>
+    <hr>
     </body>
-	
 </html>
