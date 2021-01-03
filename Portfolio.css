@@ -9,16 +9,21 @@ body{
     max-width: 200px;
     max-height: 200px;
     display: block;
-    margin: 20px 20px;	
+	margin: 20px 20px;
 }
 
 #ncsu_image{
     display: block;
-    margin: 20px 20px;
+	margin: 20px 20px;
 }
 
 img:hover{
 	border: 3px solid black;
+}
+
+.project{
+	width: 50px;
+	height: 50px;
 }
 
 #aboutme, #coursework{
